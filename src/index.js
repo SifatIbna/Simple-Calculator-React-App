@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Test from "./component/Test";
+import Calc from "./component/Calc";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/*<MultiState/>*/}
+    {/*<Test/>*/}
+    <Calc/>
   </React.StrictMode>,
   document.getElementById('root')
 );
