@@ -5,13 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Test from "./component/Test";
 import Calc from "./component/Calc";
+import Shifu from "./component/Shifu";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
     {/*<MultiState/>*/}
     {/*<Test/>*/}
-    <Calc/>
+    {/*<Calc/>*/}
+    <Shifu/>
   </React.StrictMode>,
   document.getElementById('root')
 );
